@@ -39,7 +39,7 @@ const Paste = () => {
   // }
 
   function handleShare(paste) {
-    const shareableLink = `http://localhost:5173/pastes/${paste._id}`;
+    const shareableLink = `https://paste-app-umber-pi.vercel.app/pastes/${paste._id}`;
     navigator.clipboard.writeText(shareableLink);
     toast.success("Link copied to clipboard!");
   }
