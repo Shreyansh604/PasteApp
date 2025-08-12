@@ -10,7 +10,7 @@ const Navbar = () => {
       <NavLink
       // className='items-center hover:text-blue-600'
       className={`px-4 py-2 rounded-md ${
-        location.pathname === "/" ? "text-blue-600" : "text-gray-600 hover:bg-gray-200"
+        location.pathname === "/" ? "text-blue-600" : "text-white hover:bg-gray-800"
       }`}
       to="/"
       >
@@ -19,7 +19,8 @@ const Navbar = () => {
 
       <NavLink
       className={`px-4 py-2 rounded-md ${
-        location.pathname === "/pastes" ? "text-blue-600" : "text-gray-600 hover:bg-gray-200"}`}
+        location.pathname === "/pastes" ? "text-blue-600" : "text-white hover:bg-gray-800"
+      }`}
       to="/pastes"
       >
         Pastes

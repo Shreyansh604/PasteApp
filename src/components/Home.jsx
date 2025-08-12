@@ -59,8 +59,8 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <div className='flex flex-row items-center justify-between gap-4 px-72 mt-10 mb-6'>
+    <div> 
+      <div className='flex flex-row items-center justify-between gap-4 px-72 pt-10 mb-6'>
         <input
           className='p-1 rounded-sm border-1 border-stone-400 w-[80%] pl-4 pt-2 pb-2'
           type="text"
